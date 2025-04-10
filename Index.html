@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Glow by Awa</title>
+  <title>Glow by AWA</title>
   <style>
     body {
       font-family: 'Helvetica Neue', sans-serif;
@@ -11,63 +11,94 @@
       padding: 0;
       background-color: #fefaf7;
       color: #3e3e3e;
-      text-align: center;
     }
 
     header {
-      background-color: #e7dcd3;
       padding: 2rem 1rem;
+      text-align: center;
     }
 
-    h1 {
-      margin: 0;
+    header h1 {
       font-size: 2.5rem;
+      margin-bottom: 0.5rem;
     }
 
-    p.slogan {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-      color: #7a6f65;
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
     }
 
-    section {
-      padding: 2rem 1rem;
-    }
-
-    .btn {
-      display: inline-block;
-      background-color: #d6c3b3;
-      color: #fff;
-      padding: 0.8rem 1.5rem;
-      border: none;
-      border-radius: 5px;
+    nav a {
       text-decoration: none;
-      font-size: 1rem;
-      margin-top: 1rem;
+      color: #3e3e3e;
+      font-weight: bold;
     }
 
-    footer {
-      background-color: #f3ece7;
+    .hero {
+      text-align: center;
+      background: #e3c7b9;
+      padding: 3rem 1rem;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .product {
+      background: white;
       padding: 1rem;
-      font-size: 0.8rem;
-      color: #8c837b;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .about-contact {
+      padding: 2rem;
+      background: #f6eee8;
+      text-align: center;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Glow by Awa</h1>
-    <p class="slogan">Ta beauté, naturellement mise en valeur</p>
+    <h1>Glow by AWA</h1>
+    <nav>
+      <a href="#products">Produits</a>
+      <a href="#about-contact">À propos & Contact</a>
+    </nav>
   </header>
 
-  <section>
-    <h2>Découvre nos produits coups de cœur</h2>
-    <p>Bientôt disponibles en ligne !</p>
-    <a class="btn" href="#">En savoir plus</a>
+  <section class="hero">
+    <h2>Découvrez notre univers doux & naturel</h2>
+    <p>Des produits de beauté sélectionnés avec soin.</p>
   </section>
 
-  <footer>
-    © 2025 Glow by Awa. Tous droits réservés.
-  </footer>
+  <section id="products" class="products">
+    <div class="product">
+      <h3>Produit 1</h3>
+      <p>€29.90</p>
+      <a href="#">Acheter</a>
+    </div>
+    <div class="product">
+      <h3>Produit 2</h3>
+      <p>€39.90</p>
+      <a href="#">Acheter</a>
+    </div>
+  </section>
+
+  <section id="about-contact" class="about-contact">
+    <h2>À propos de Glow by Awa</h2>
+    <p>Bienvenue ! Ici, nous partageons l’amour de la beauté, du naturel et du bien-être. Contactez-nous via Instagram : @glowbyawa</p>
+  </section>
+
 </body>
 </html>
