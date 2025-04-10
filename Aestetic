@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glow by Awa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f8f4f1;
+      color: #3e3e3e;
+    }
+
+    header {
+      background-color: #e8dcd4;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #8b6f61;
+    }
+
+    section.hero {
+      background-color: #d7c2b9;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+    }
+
+    section.produits {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .produits h2 {
+      margin-bottom: 2rem;
+    }
+
+    .produit {
+      display: inline-block;
+      width: 200px;
+      margin: 1rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .produit img {
+      width: 100%;
+      height: auto;
+    }
+
+    .produit .details {
+      padding: 1rem;
+    }
+
+    .produit .details h3 {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .produit .details p {
+      color: #8b6f61;
+      font-weight: bold;
+    }
+
+    section.contact {
+      background-color: #eee5df;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #d7c2b9;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Glow by Awa</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Ta beauté, naturellement mise en valeur</h2>
+    <p>Découvre nos produits coups de cœur</p>
+  </section>
+
+  <section class="produits">
+    <h2>Nos Produits</h2>
+
+    <!-- Exemple de produit -->
+    <div class="produit">
+      <img src="https://via.placeholder.com/200x250" alt="Produit 1">
+      <div class="details">
+        <h3>Nom du produit</h3>
+        <p>19,99 €</p>
+      </div>
+    </div>
+
+    <!-- Tu pourras en rajouter d'autres ici -->
+
+  </section>
+
+  <section class="contact">
+    <h2>À propos</h2>
+    <p>Glow by Awa est une marque dédiée à la beauté naturelle. Nos produits sont sélectionnés avec soin.</p>
+    <h3>Contact</h3>
+    <p>Email : contact@glowbyawa.fr</p>
+    <p>Instagram : @glowbyawa</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Glow by Awa. Tous droits réservés.
+  </footer>
+
+</body>
+</html>
